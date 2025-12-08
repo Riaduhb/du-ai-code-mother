@@ -2,6 +2,9 @@ package com.du.duaicodemother.common;
 
 import lombok.Data;
 
+/**
+ * 请求封装类
+ */
 @Data
 public class PageRequest {
 
