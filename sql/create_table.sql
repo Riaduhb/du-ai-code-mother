@@ -1,3 +1,14 @@
+# 数据库初始化
+# @author <a href="https://github.com/Riaduhb">Riaduhb</a>
+# @from <a href="https://github.com/Riaduhb">github</a>
+
+-- 创建库
+create database if not exists du_ai_code_mother;
+
+-- 切换库
+use du_ai_code_mother;
+-- 以下是建表语句
+
 -- 用户表
 create table if not exists user
 (
